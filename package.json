@@ -1,0 +1,28 @@
+{
+  "name": "Server",
+  "version": "1.0.0",
+  "description": "Package JSON for our server files",
+  "main": "userServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PeacefulSplinter/Server.git"
+  },
+  "author": "Peaceful Splinter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeacefulSplinter/Server/issues"
+  },
+  "homepage": "https://github.com/PeacefulSplinter/Server",
+  "dependencies": {
+    "bluebird": "^2.9.8",
+    "body-parser": "^1.11.0",
+    "connect-flash": "latest",
+    "express": "^4.11.2",
+    "mongoose": "^3.8.23",
+    "passport": "0.2.1",
+    "passport-local": "1.0.0"
+  }
+}
